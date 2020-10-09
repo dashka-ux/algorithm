@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\Дарья\source\repos\Project2.00\Project2.00\Source.cpp(50,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+Source.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/INCREMENTAL:NO"
+  Project2.00.vcxproj -> C:\Users\Дарья\source\repos\Project2.00\Debug\Project2.00.exe
