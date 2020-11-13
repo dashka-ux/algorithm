@@ -50,7 +50,7 @@ int main() {
 	srand(time(NULL));
 	printf("Enter lenght:");
 	scanf("%d", &n);
-	fprintf(sort, "NUMBER OF ELEMENTS = %d\n", n);
+	fprintf(sort, "Number of elements = %d\n", n);
 	int* arr_random = new int[n];
 	int* arr_vozrast = new int[n];
 	int* arr_ubiva = new int[n];
@@ -144,6 +144,7 @@ int main() {
 	fprintf(sort, "Time qsort ubiva = %lf\n", (end - start) / CLOCKS_PER_SEC);
 	start = clock();
 	qsort(arr_ubiva_3, n, sizeof(int), (int(*)(const void*, const
+
 		void*))cmpfunc);
 	end = clock();
 	fprintf(sort, "Standart qsort ubiva = %lf\n", (end - start) / CLOCKS_PER_SEC);
